@@ -1,0 +1,11 @@
+
+if SHIELD_ROMAC
+
+config ZMK_KEYBOARD_NAME
+	default "romac"
+
+config ZMK_SPLIT
+	default n
+
+endif
+
