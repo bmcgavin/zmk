@@ -16,10 +16,10 @@
 		compatible = "zmk,matrix-transform";
 		columns = <3>;
 		rows = <4>;
-// | MX1  | MX2  | MX3  |
-// | MX4  | MX5  | MX6  |
-// | MX7  | MX8  | MX9  |
-// | MX10 | MX11 | MX12 |
+// | SW1  | SW2  | SW3  |
+// | SW4  | SW5  | SW6  |
+// | SW7  | SW8  | SW9  |
+// | SW10 | SW11 | SW12 |
 		map = <
 RC(0,0) RC(0,1) RC(0,2)
 RC(1,0) RC(1,1) RC(1,2)
@@ -38,10 +38,6 @@ RC(3,0) RC(3,1) RC(3,2)
 			, <&pro_micro_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&pro_micro_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&pro_micro_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			//= <&pro_micro_a 7 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>
-			//, <&pro_micro_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			//, <&pro_micro_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			//, <&pro_micro_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			;
 
 	};
